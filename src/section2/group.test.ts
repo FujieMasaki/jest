@@ -13,7 +13,7 @@ describe("配列に関するテスト", () => {
   describe("配列の検索に関するテスト", () => {
     it("配列の要素を検索するテスト", () => {
       const arr = ["element1", "element2"];
-      expect(arr.indexOf).toBe(1);
+      expect(arr.indexOf("element2")).toBe(1);
     });
   });
 });
