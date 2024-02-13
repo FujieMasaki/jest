@@ -3,7 +3,6 @@ import Users from "./practice";
 
 jest.mock("axios");
 const mockAxios = jest.mocked(axios);
-mockAxios.mockResolvedValue("response data");
 
 describe("Users", () => {
   beforeEach(() => {
